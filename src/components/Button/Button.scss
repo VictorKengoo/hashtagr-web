@@ -1,0 +1,35 @@
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  font-size: 36px;
+
+  width: 284px;
+  height: 96px;
+
+  border-radius: 74px;
+
+  font-weight: 500;
+
+  background: transparent;
+  border: 3px solid #2AA9E0;
+  color: #2AA9E0;
+
+  transition: 0.3s;
+
+  img{
+    margin-right: 35px;
+  }
+
+  &:hover{
+    background-color: rgba($color: #2AA9E0, $alpha: 0.4);
+  }
+
+  &:active{
+    transition: 0.2s;
+    background-color: rgba($color: #2AA9E0, $alpha: 0.8);
+  }
+}
