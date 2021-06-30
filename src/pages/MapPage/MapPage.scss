@@ -1,0 +1,87 @@
+#page-map{
+  width: 100wh;
+  height: 100vh;
+}
+
+form.landing-page-form {
+  width: 500px;
+
+  background: #ffffff;
+  border: 1px solid #d3e2e5;
+  border-radius: 30px;
+
+  padding: 20px 40px;
+
+  position: absolute;
+  top: 30px;
+  left: 50px;
+
+  z-index: 1;
+}
+
+#page-map .leaflet-container {
+  z-index: 0;
+}
+
+form.landing-page-form fieldset {
+  border: 0;
+}
+
+form.landing-page-form fieldset img {
+  width: 100%;
+
+  font-size: 32px;
+  line-height: 34px;
+  color: #5c8599;
+  font-weight: 700;
+
+  border-bottom: 1px solid #d3e2e5;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+form.landing-page-form .input-block + .input-block {
+  margin-top: 24px;
+}
+
+form.landing-page-form .input-block input {
+  width: 100%;
+  background: #f5f8fa;
+  border: 1px solid #d3e2e5;
+  border-radius: 20px;
+  outline: none;
+  color: #5c8599;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  height: 44px;
+  padding: 0 16px;
+}
+
+form.landing-page-form .input-block i {
+  position: absolute;
+}
+
+form.landing-page-form .input-block .icon {
+  padding: 14px 20px;
+  min-width: 40px;
+}
+
+form.landing-page-form button.confirm-button {
+  margin-top: 34px;
+
+  width: 100%;
+  height: 64px;
+  border: 0;
+  cursor: pointer;
+  background-color: #4254f5;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 800;
+
+  transition: background-color 0.2s;
+}
+
+form.landing-page-form button.confirm-button:hover {
+  background-color: #6c79f5;
+}
